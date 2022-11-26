@@ -1,0 +1,30 @@
+{
+  "short_name": "Abdullah What's up app",
+  "name": "Info3069 Case 3 Chat App",
+  "icons": [
+    {
+      "src": "chat.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "chat.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "chat.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "chat.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#3f51b5",
+  "background_color": "#ffffff"
+}
