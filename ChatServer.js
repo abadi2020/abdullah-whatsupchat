@@ -4,7 +4,9 @@ const express = require("express");
 const app = express();
 const http = require("http");
 const port = 5000;
-let server = http.createServer(app);
+const server = express()
+  .use(app)
+  .listen(port, () => console.log(`Listening Socket on ${ port }`));
 let io = socketIO(server);
 const usrRtns = require("./userRoutines");
 
